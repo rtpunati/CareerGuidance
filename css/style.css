@@ -1616,13 +1616,13 @@ opacity:1;
 	color: #29aafe;
 }
 .btn-default {
-	background-color: #29aafe;
+	background-color: #1b738b;
 	color: #FFF;
 	border-radius: 0;
 	padding: 10px 30px;
 	margin-top: 30px;
 	font-weight:600;
-	border: 1px solid #29aafe;
+	border: 1px solid #1b738b;
 	text-transform:uppercase;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease- 0s;
@@ -1630,9 +1630,9 @@ opacity:1;
 	transition: all 0.3s ease 0s;
 }
 .btn-default:hover {
-	background-color: #2088cb;
+	background-color: #D3C1AE;
 	color: #FFF;
-	border: 1px solid #2088cb;
+	border: 1px solid #D3C1AE;
 }
 .btn-default i {
 	margin-left:10px;	
@@ -4123,7 +4123,7 @@ ul.onwhite a.icoLinkedin:hover {
 	background: rgba(60, 146, 202, 0.7) url("../images/coming-soon.jpg") no-repeat scroll center center / cover;
 }
 .login-page-2 .login {
-	background: #00748B;
+	background: #144a63;
 	border-top: 5px solid #29aafe;
 	margin: auto;
 	width: 380px;
