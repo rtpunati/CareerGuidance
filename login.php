@@ -220,7 +220,7 @@
 
     </div>
 </body>
-
+<!--
 <script>
 var isNS = (navigator.appName == "Netscape") ? 1 : 0;
 if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
@@ -236,5 +236,4 @@ document.oncontextmenu = mischandler;
 document.onmousedown = mousehandler;
 document.onmouseup = mousehandler;
 </script>
-<!-- Mirrored from templates.scriptsbundle.com/opportunities/demo/login-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Oct 2016 14:25:27 GMT -->
-</html>
+</html>-->
