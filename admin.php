@@ -5,14 +5,7 @@
 	include("config/function.php");
 	include("include/admin.php");
 	
-// -------------------------------------------------------------//
 	
-		/* if(isset($_SESSION['login_counsellor'])){
-			header("Location: counsellor_dashboard.php");
-		} */
-
-// -------------------------------------------------------------//
-		
 	$home = page_query("home");
 	$career = page_query("career");
 	$job = page_query("job");
@@ -33,9 +26,7 @@
 <!-- Mirrored from templates.scriptsbundle.com/opportunities/demo/login-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Oct 2016 14:25:27 GMT -->
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <!--[if IE]>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<![endif]-->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="ScriptsBundle">
@@ -70,21 +61,11 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
     <!-- JavaScripts -->
     <script src="js/modernizr.js"></script>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+
 </head>
 
 <body>
 <div class="page">
-    <!--<div id="spinner">
-        <div class="spinner-img"> <img alt="Opportunities Preloader" src="images/loader.gif" />
-            <h2>Please Wait.....</h2>
-        </div>
-    </div> -->
     <nav id="menu-1" class="mega-menu fa-change-black" data-color=""> 
         <section class="menu-list-items"> 
             <ul class="menu-logo">
@@ -99,24 +80,12 @@
 
 				<!-- <li class="no-bg"><a href="#" class="p-job"><i class="fa fa-plus-square"></i> Post Job</a></li> -->
 				<li class="no-bg login-btn-no-bg"><a href="login.php" class="login-header-btn"><i class="fa fa-sign-in"></i> Student</a></li>
-				<!--<li class="profile-pic"> <a href="javascript:void(0)"> <img src="images/admin.jpg" alt="user-img" class="img-circle" width="36"><span class="hidden-sm">Arslan </span><i class="fa fa-angle-down fa-indicator"></i> </a>
-					<ul class="drop-down-multilevel left-side">
-						<li><a href="#"><i class="fa fa-user"></i> My Profile</a></li>
-						<li><a href="#"><i class="fa fa-mail-forward"></i> Inbox</a></li>
-						<li><a href="#"><i class="fa fa-gear"></i> Account Setting</a></li>
-						<li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
-					</ul>
-                    </li>-->
+
            </ul>
         </section>
     </nav>
     <div class="clearfix"></div>
     <div class="page category-page">
-        <!--<div id="spinner">
-            <div class="spinner-img"> <img alt="Opportunities Preloader" src="images/loader.gif" />
-                <h2>Please Wait.....</h2>
-            </div>
-        </div> -->
         <section class="login-page-2 parallex full-page" >
             <div class="container">
                 <div class="row">
@@ -151,20 +120,6 @@
 								
 							</form>
 							
-							
-                            <!--<div class="social">
-                                <div class="loginbox-or">
-                                    <div class="or-line"></div>
-                                    <div class="or">OR</div>
-                                </div>
-                                <ul class="social-network social-circle">
-                                    <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#" class="icoLinkedin" title="Linkedin +"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-
-                            </div> -->
 							
                         </div>
                     </div>

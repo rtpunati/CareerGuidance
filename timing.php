@@ -73,11 +73,6 @@
 		$cur_time 	= time();
 		
 		echo $cur_time;
-		
-		//$curenttime="2016-11-9 09:09:09";
-		 // $time_ago =strtotime($curenttime);
-		 // echo timeAgo($time_ago);
-		
-		
+	
 
 ?>

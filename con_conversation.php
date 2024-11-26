@@ -117,14 +117,6 @@ $active = "inbox";
                             <div class="resume-list">
                                 <div class="table-responsive" style="overflow: scroll; height: 700px;">
                                     <table class="table table-inverse" >
-                                       <!-- <thead class="thead-inverse">
-                                            <tr>
-                                                <th>S/N</th>
-                                                <th>Message Category</th>
-                                                <th>Conversations</th>
-                                                <th>Date</th>
-                                            </tr> 
-                                        </thead> -->
                                         <tbody id="show">
 								
                                             

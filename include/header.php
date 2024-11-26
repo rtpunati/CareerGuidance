@@ -82,20 +82,10 @@
     <!-- JavaScripts -->
     <script src="js/modernizr.js"></script>
 
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+
 </head>
 <body>
 <div class="page">
-    <!--<div id="spinner">
-        <div class="spinner-img"> <img alt="Opportunities Preloader" src="images/loader.gif" />
-            <h2>Please Wait.....</h2>
-        </div>
-    </div> -->
     <nav id="menu-1" class="mega-menu fa-change-black" data-color=""> 
         <section class="menu-list-items"> 
             <ul class="menu-logo">
@@ -110,14 +100,6 @@
 
 				<!-- <li class="no-bg"><a href="#" class="p-job"><i class="fa fa-plus-square"></i> Post Job</a></li> -->
 				<li class="no-bg login-btn-no-bg"><a href="login.php" class="login-header-btn"><i class="fa fa-sign-in"></i> Student</a></li>
-				<!--<li class="profile-pic"> <a href="javascript:void(0)"> <img src="images/admin.jpg" alt="user-img" class="img-circle" width="36"><span class="hidden-sm">Arslan </span><i class="fa fa-angle-down fa-indicator"></i> </a>
-					<ul class="drop-down-multilevel left-side">
-						<li><a href="#"><i class="fa fa-user"></i> My Profile</a></li>
-						<li><a href="#"><i class="fa fa-mail-forward"></i> Inbox</a></li>
-						<li><a href="#"><i class="fa fa-gear"></i> Account Setting</a></li>
-						<li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
-					</ul>
-                    </li>-->
            </ul>
         </section>
     </nav>

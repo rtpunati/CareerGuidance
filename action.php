@@ -31,13 +31,6 @@
 				}
 
 
-		//echo $msgs;\
-
-			//$get_id = $_GET['id'];
-			//$get_cat = $_GET['category'];
-			//$get_conversation = get_conversation($get_id,$email);
-
-			//echo $get_id;
 			$new_id = $_REQUEST['id'];
 			$get_conversation = get_conversation($new_id,$email);
 			
@@ -101,16 +94,7 @@
 					
 				}
 				
-				/*
-				echo "<tr>
-				
-						<th scope='row'>From : Me <br >
-							Message: <br>
-							<span style='float: right'>Time</span>
-						</th>
-						
-					</tr>"; */
-				
+
 			}
 
 		}

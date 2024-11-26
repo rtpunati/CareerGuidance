@@ -23,13 +23,6 @@
 					header("Location: index.php");
 				}
 
-		//echo $msgs;\
-
-			//$get_id = $_GET['id'];
-			//$get_cat = $_GET['category'];
-			//$get_conversation = get_conversation($get_id,$email);
-
-			//echo $get_id;
 			$new_id = $_REQUEST['id'];
 			$get_conversation2 = get_conversation2($new_id);
 			
@@ -64,7 +57,6 @@
 		if(isset($_POST['display'])){
 			$sql_show = main_query("SELECT * FROM inbox WHERE id='$new_id' ORDER By id DESC");
 			
-			//$reply_msg = $_POST['textcontent'];
 			
 			while($row_msg = $sql_show->fetch_assoc()){
 				$catty = $row_msg['category'];
@@ -76,9 +68,7 @@
 				krsort($array);
 				$array2 = explode("~!~", $time);
 				$array3 = explode("~!~", $ident);
-				//krsort($array2)
-					//var_dump($array2);
-				
+
 				foreach($array as $val=> $key){
 					$msg_val = $key;
 					$time_val = $array2[$val];
@@ -95,15 +85,7 @@
 					
 				}
 				
-				/*
-				echo "<tr>
-				
-						<th scope='row'>From : Me <br >
-							Message: <br>
-							<span style='float: right'>Time</span>
-						</th>
-						
-					</tr>"; */
+
 				
 			}
 

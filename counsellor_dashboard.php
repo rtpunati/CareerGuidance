@@ -51,31 +51,6 @@ $active = "con_dashboard";
                                 <div class="heading-inner">
                                     <p class="title" style="font-size: 45px; font-weight: bold;">Welcome : <?= $full_name?></p>
                                 </div>
-                                <!-- <dl>
-                                    <dt>First Name:</dt>
-                                    <dd>First Name</dd>
-
-                                    <dt>Last Name:</dt>
-                                    <dd> Last Name </dd>
-
-                                    <dt>Phone:</dt>
-                                    <dd> Phone</dd>
-
-                                    <dt>Email:</dt>
-                                    <dd> Email</dd>
-									
-									<dt>Gender:</dt>
-                                    <dd> Gender</dd>
-
-                                    <dt>Address:</dt>
-                                    <dd> Address</dd>
-
-                                    <dt>State Of Origin:</dt>
-                                    <dd> State Of Origin</dd>
-
-                                    <dt>Country:</dt>
-                                    <dd>Somewere at Antarctica </dd>
-                                </dl> -->
                             </div>
 
 							<!--

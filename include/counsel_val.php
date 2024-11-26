@@ -21,9 +21,7 @@
 		// To protect MySQL injection for Security purpose
 		$email = stripslashes($email);
 		$password = stripslashes($password);
-		//$username = mysqli_real_escape_string($conn, $username);
-		//$password = mysqli_real_escape_string($conn, $password);
-		
+
 		$sql = "SELECT * FROM add_counsellor WHERE email = '".$email."' AND password = '".$password."'";
 		$query = main_query($sql);
 		$rows = mysqli_num_rows($query);
