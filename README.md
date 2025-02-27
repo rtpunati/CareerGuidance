@@ -30,12 +30,6 @@ The `testmodel.py` script is designed to train and evaluate a **Random Forest Cl
 - **Challenges**: Class imbalance affects the performance, with some classes like **Graphics Designing** showing poor precision and recall.
 - **SMOTE** was applied to balance the classes, but its effectiveness is limited in cases of severe imbalance.
 
-### Recommendations for Improvement:
-- **Combine SMOTE with undersampling** techniques or use **class weights** in the Random Forest Classifier.
-- Experiment with classifiers like **XGBoost** or **LightGBM** for better handling of imbalanced data.
-- Consider adding **ROC-AUC** and other relevant metrics for more comprehensive model evaluation.
-- Analyze the class distribution to ensure sufficient samples are available for training all classes.
-
 ## Flask Application for Career Guidance (`testapp.py`)
 
 The `testapp.py` script is a **Flask application** that serves as the frontend for career guidance predictions. It consists of two main routes:
@@ -46,10 +40,6 @@ The `testapp.py` script is a **Flask application** that serves as the frontend f
 - **Model Efficiency**: The model is currently loaded dynamically during each prediction, but it is recommended to load it once during app initialization for improved efficiency.
 - **Input Validation**: Ensures that inputs are numeric and correctly formatted.
 - **Error Handling**: Manages invalid inputs effectively.
-- **Improvement Recommendations**: 
-  - Incorporate **client-side input validation**.
-  - Use a **configurable probability threshold** for recommendations.
-  - Provide more specific error messages to users and implement **logging** for better tracking.
 
 ## Overall System Structure
 
@@ -99,11 +89,6 @@ The **Career Guidance and Placement Management System** integrates both career g
 
 ### SMOTE Effectiveness:
 - SMOTE improved the balance of classes in the training data, but in cases of severe imbalance, it did not fully resolve the problem. The combination of **undersampling** or adjusting **class weights** in Random Forest may yield better results.
-
-### Improvement Recommendations:
-- Use **XGBoost** or **LightGBM** classifiers for better handling of imbalanced datasets.
-- Evaluate the model with **ROC-AUC** and **F1-score** to get a more comprehensive understanding of model performance.
-- Consider integrating **client-side input validation** and more **specific error messages** in the Flask app for better user experience and efficiency.
 
 ### System Efficiency:
 - The Flask application can be optimized by loading the trained model once during the app's startup rather than on each prediction, improving efficiency.
