@@ -111,5 +111,3 @@ The **Career Guidance and Placement Management System** integrates both career g
 ## Conclusion
 
 The system successfully integrates career guidance with campus placement management, offering personalized job recommendations based on student skills. The machine learning model shows promising accuracy but requires further refinement to handle class imbalance and improve performance in minority job categories.
-
-
